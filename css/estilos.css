@@ -1,0 +1,100 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* Estilos para header */
+
+.inicio {
+    background-image: url(/page/img/fondo2.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.tortas
+{
+    background-image: url(/page/img/head2.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.cupcake{
+    background-image: url(/page/img/head3.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.porciones{
+    background-image: url(/page/img/head1.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.bakery{
+    background-image: url(/page/img/bake1.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    flex: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.459);
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(253, 182, 219);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+img{
+    height: 300px;
+
+}
+.star{
+    background-color: rgba(255, 196, 196, 0.835);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Tipografia */
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px;
+}
+h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+}
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+/* Footer */
+.pie{
+background-color: rgba(165, 42, 42, 0.463);
+padding: 50px;
+text-align: center;
+text-decoration: none;
+list-style: none;
+}
